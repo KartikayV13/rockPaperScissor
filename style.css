@@ -65,6 +65,7 @@ img {
   }
   .choices {
     display: flex;
+    margin: 1rem;
     flex-direction: column;
     gap: 1rem;
   }
@@ -75,6 +76,13 @@ img {
   img {
     height: 90px;
     width: 90px;
+  }
+  .score-board {
+    margin-top: 0rem;
+    font-size: 1.5rem;
+  }
+  .msg-container {
+    margin-top: 3rem;
   }
   #msg {
     font-size: 1.5rem;
